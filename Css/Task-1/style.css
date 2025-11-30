@@ -1,0 +1,14 @@
+section{
+    width: 500px;
+    height: 300px;
+    border:3px solid brown;
+    background: bisque;
+    margin: 60px auto;
+    padding:30px 20px 10px 20px;
+}
+
+#profile img{
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+}
