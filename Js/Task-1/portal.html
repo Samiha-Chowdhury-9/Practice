@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="signup.js" defer>
+            
+        </script>
+        <title>Student Portal</title>
+    </head>
+
+    <body>
+        
+        <form action="" method="POST" id="form">
+            <fieldset>
+                <legend> Student Information</legend>
+            <label for="name">Full Name: </label>
+            <input type="text" id="name" name="name" required>
+            <span id="nameErr"></span>
+            <br><br>
+            <label for="email">Email Address : </label>
+            <input type="text" id="email" name="email" required>
+            <span id="emailErr"></span>
+            <br><br>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass">
+            <span id="passErr"></span>
+            <br><br>
+            <label for="pass">Confirm Password:</label>
+            <input type="password" id="confirmpass" name="confirmpass">
+            <span id="confirmPassErr"></span>
+            <br><br>
+            <label for="number"> Phone no. :</label>
+            <input type="text" id="number" name="number" maxlength="11" inputmode="numeric" required>
+            <span id="numErr"></span>
+            <br><br>
+            <input type="submit" id="submit" name="submit" value="submit">
+            </fieldset>
+        </form> 
+    </body>
+    
+</html>
