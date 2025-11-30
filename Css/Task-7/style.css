@@ -1,0 +1,35 @@
+header{
+    position: sticky;
+    top: 0;
+    text-align: center;
+    color:brown;
+    background-color: burlywood;
+    padding: 1px;
+    border-bottom: 5px solid saddlebrown;
+    
+}
+header nav a{
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(225, 161, 76) ;
+
+}
+header nav a:hover{
+    background-color: brown;
+    color: white;
+
+}
+section {
+    scroll-margin-top: 130px; 
+}
+
+main{
+    background-color: beige;
+    
+}
+footer{
+    background-color: blanchedalmond;
+}
+
+
