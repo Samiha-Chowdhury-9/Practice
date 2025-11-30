@@ -1,0 +1,18 @@
+nav {
+    display: block;
+    text-align: center;
+    background: antiquewhite; 
+    padding: 10px 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+   color: whitesmoke;
+    background-color: brown;
+}
