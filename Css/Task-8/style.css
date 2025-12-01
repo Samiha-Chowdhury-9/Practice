@@ -1,0 +1,13 @@
+div{
+    width:300px;
+    height:200px;
+    border: 5px solid darkkhaki;
+    padding:70px;
+    overflow: auto;
+}
+/*
+Visible keeps all the overflowed text visiblt outside the box which does not look good.
+Hidden hides all the overflowed text which is a problem as viewer will miss parts of content.
+Scroll keeps the overflowed text but we have to scroll to both x and y axis to see.
+Auto decides automatically which overflow method will appear best and applies it.
+*/
