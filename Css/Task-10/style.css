@@ -1,0 +1,45 @@
+#one{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    top:0;
+    left:0;
+    background-color: cornsilk;
+    color: rgb(126, 19, 179);
+    font-weight: bolder;
+    z-index: 1;
+    text-align: center;
+
+}
+
+#two{
+    position: absolute;
+    height:200px;
+    width: 300px;
+    top:0;
+    left:250px;
+    background-color: indianred;
+    color: black;
+    font-weight: bolder;
+    z-index: 6;
+    text-align: center;
+
+
+}
+
+#three{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    top:0;
+    left:500px;
+    background-color:coral;
+    color: darkred;
+    font-weight: bolder;
+    z-index: 2;
+    text-align: center;
+
+
+}
+
+
