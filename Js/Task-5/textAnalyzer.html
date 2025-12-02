@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Text Analyzer </title>
+        <script src="analysis.js" defer></script>
+        <style>
+            .container{
+                text-align: center;
+                margin-top: 30px;
+            }
+            textarea{
+                display: block; 
+                background-color: bisque; 
+                border: 2px solid saddlebrown; 
+                text-align: center;
+                margin: 0 300px;
+                width: 70%;
+
+            }
+            button{
+                color: beige;
+                background-color: saddlebrown;
+                border: 2px solid rgb(96, 47, 11);
+                padding: 7px 15px;
+                font-weight: bold;
+            }
+            button:hover{
+                background-color: rgb(52, 34, 11);
+                color: white;
+                
+            }
+            #result{
+                text-align: center;
+                margin-top: 50px;
+                padding: 10px 20px;
+                background-color: blanchedalmond;
+                color:saddlebrown;
+                margin: 0 350px;
+                border:1px solid rgb(52, 34, 11)
+            }
+            textarea, button {
+                display: block;
+                margin: 1% auto;     
+            }
+
+        
+
+        </style>
+
+    <body style="background-color:cornsilk;">
+        <textarea id="area" rows="15" cols="70"></textarea>
+        <div class="container">
+            <button type="button" id="button" > Analyze text</button>
+            <button type="button" id="reset"> Reset </button>
+        </div>
+        <div id="result">
+
+        </div>
+        
+
+    </body>
+</html>
