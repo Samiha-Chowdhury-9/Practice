@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dynamic Form Field</title>
+        <script src="dynamic.js" defer></script>
+    </head>
+
+    <body>
+        <form>
+            <h2>Smart Registration Form</h2>
+            <label for="profile">Choose your profile: </label>
+            <select id="profile" name="profile">
+                <option id="default" value=""> Select an option </option>
+                <option id="student" value="Student"> Student</option>
+                <option id="teacher" value="Teacher"> Teacher</option>
+            </select><br><br>
+
+            <label for="roll" id="rollLabel">Roll Number: </label>
+            <input type="text" id="roll">
+
+            <label for="dept" id="deptLabel">Department: </label>
+            <input type="text" id="dept">
+
+            <br><button type="submit" > Submit</button>
+        </form>
+    </body>
+</html>
